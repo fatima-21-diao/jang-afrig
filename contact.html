@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contact - Jàng Afrig</title>
+</head>
+
+<body>
+
+<header>
+<h1>Contact</h1>
+<p>Nous écrire</p>
+</header>
+
+<nav>
+<a href="index.html">Accueil</a> |
+<a href="quiz.html">Jouer</a> |
+<a href="scores.html">Mes Scores</a> |
+<a href="apropos.html">À propos</a> |
+<a href="contact.html">Contact</a>
+</nav>
+
+<main>
+
+<h2>Formulaire de contact</h2>
+
+<form>
+
+<!-- Nom -->
+<p>
+<label for="nom">Nom :</label>
+<input type="text" id="nom" name="nom" required>
+</p>
+
+<!-- Email -->
+<p>
+<label for="email">Email :</label>
+<input type="email" id="email" name="email" required>
+</p>
+
+<!-- Sujet -->
+<p>
+<label for="sujet">Sujet :</label>
+<select id="sujet" name="sujet" required>
+  <option value="">-- Choisir --</option>
+  <option value="question">Question</option>
+  <option value="bug">Bug</option>
+  <option value="suggestion">Suggestion</option>
+</select>
+</p>
+
+<!-- Message -->
+<p>
+<label for="message">Message :</label><br>
+<textarea id="message" name="message" rows="5" required></textarea>
+</p>
+
+<!-- Bouton -->
+<p>
+<button type="submit">Envoyer</button>
+</p>
+
+</form>
+
+</main>
+
+<footer>
+<p>&copy; 2025--2026 Jàng Afrig</p>
+</footer>
+
+</body>
+</html>
